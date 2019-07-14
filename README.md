@@ -30,7 +30,7 @@ Like npm start, but also attempts to open your app on a connected Android device
     Add the Genymotion tools directory to your path (instructions for Mac, Linux, and Windows).
     Make sure that you can run adb from your terminal.
 
-npm run eject
+#npm run eject
 
 This will start the process of "ejecting" from Create React Native App's build scripts. You'll be asked a couple of questions about how you'd like to build your project.
 
