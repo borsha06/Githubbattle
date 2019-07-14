@@ -29,14 +29,6 @@ public class MainApplication extends Application implements ReactApplication {
       return packages;
     }
 
-protected List<ReactPackage> getPackages() {
-        // Add additional packages you require here
-        // No need to add RnnPackage and MainReactPackage
-        return Arrays.<ReactPackage>asList(
-            ....
-            new RNGestureHandlerPackage()
-        );
-    }
 
     @Override
     protected String getJSMainModuleName() {

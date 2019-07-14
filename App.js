@@ -10,6 +10,7 @@ import React, { Fragment } from 'react';
 import Login from './components/Login';
 import Profile from './components/Profile'
 import Battle from './components/Battle'
+import AppNavigator from './AppNavigator';
 import
 {
   SafeAreaView,
@@ -20,27 +21,17 @@ import
   StatusBar,
 } from 'react-native';
 
-import
-{
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import AppNavigator from './AppNavigator';
+
 
 const App = () =>
 {
-  return (
-    <View style={styles.container}>
-      <AppNavigator />
-      {/* <Login /> */}
-      {/* <Profile /> */}
-      <Battle />
+  return
 
-    </View>
-  );
+  <AppNavigator />
+  {/* <Login /> */ }
+  {/* <Profile /> */ }
+  {/* <Battle /> */ }
+
 };
 
 const styles = StyleSheet.create({
